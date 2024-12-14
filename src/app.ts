@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 dotenv.config();
-const port = process.env.PORT || 5000;
+const port =  8500;
 
 app.get('/', (req: Request, res: Response) => {
     res.send('Hello World!');
